@@ -189,7 +189,5 @@ public class PuzzleSolver {
         }
         System.out.println("Solution not found.");
     }
-
-
 }
 

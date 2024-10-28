@@ -15,13 +15,6 @@ public class GraphColoringApp extends JFrame {
 
     private JButton backButton, startButton, stepButton, clearButton, languageButton, helpButton;
 
-    public void start() {
-        SwingUtilities.invokeLater(() -> {
-            GraphColoringApp app = new GraphColoringApp();
-            app.setVisible(true);
-        });
-    }
-
     public GraphColoringApp() {
         setupFrame();
         DrawingPanel drawingPanel = new DrawingPanel();
